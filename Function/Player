@@ -1,0 +1,17 @@
+Player Function:
+
+--(Position)--
+
+You can't just use workspace:GetDescendants({player}) , all you can use is Mineblox Function to get Player Position.
+
+So how? you can use Player.Position(player) , allowing your plugin to get The Specificed Player Position.
+
+Get the specificed Player Position and show Message of Player Position:
+
+---------------------------------------------------------------------------------------------------------------------
+Arugments.Import(player)
+Arugments.Import(SendMessage)
+local PlayerPosition = Player.Position(player)
+
+SendMessage:Private("Superproinf Position: "..PlayerPosition.." (XYZ)", Superproinf123) {Message, SendTo}
+---------------------------------------------------------------------------------------------------------------------
