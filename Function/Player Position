@@ -13,5 +13,5 @@ Arugments.Import(player)
 Arugments.Import(SendMessage)
 local PlayerPosition = Player.Position(player)
 
-SendMessage:Private("Superproinf Position: "..PlayerPosition.." (XYZ)", Superproinf123) {Message, SendTo}
+SendMessage:Private("Superproinf Position: "..PlayerPosition.." (XYZ)", Superproinf123) --{Message, SendTo}
 ---------------------------------------------------------------------------------------------------------------------
